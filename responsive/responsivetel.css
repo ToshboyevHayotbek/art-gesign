@@ -1,0 +1,77 @@
+@media only screen and (max-width: 400px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .navigation{
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 10%;
+    }
+    .nav a{
+        display: none;
+    }
+    .header__title h2{
+        color: white;
+        font-size: 4.8rem;
+        font-family: Ubuntu;
+    }
+    .header__title span{
+        color: #171717;
+    }
+    .header__title p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 1rem;
+    }
+    .header__title input{
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+        border-radius: 20px;
+        font-size: 1.4rem;
+    }
+    .header__title button{
+        padding: 1rem 0;
+        font-size: 1rem;
+        width: 20%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .section__flex{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-bottom: 5%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section__img img{
+        width: 320px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .section__img span{
+        background-color: #363737;
+        color: white;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        border-radius: 8px;
+        font-family: Roboto Slab;
+    }
+    .blog__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        text-align: center;
+    }
+    .blog__img img{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        gap: 3rem;
+    }
+}
